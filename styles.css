@@ -7,82 +7,155 @@ html {
 body {
     position: relative;
     font-family: verdana, arial, sans-serif;
-   /* Move down content because of fixed navbar at top */
-   padding-top: 40px;
-   /* Set margin bottom allow for footer height */
-   margin-bottom: 40px;
+    padding-top: 5px;
+    margin-bottom: 50px;
     background-image:url(media/tartan2.png);
 }
 
-h3,h4{
-    font-weight: bold;
-}
-p {
-    text-indent: 2em;
-    color: black;
-}
-
-.panel-heading {
+.eduthumbnail
+{
     text-align: center;
 }
-
-.panel-heading, .panel-body, .thumbnail{
-    box-shadow: 3px 3px 2px 3px #000000;
-}
-
-.navbar {
-    background-color: aqua;
-   
-}
-
-.jumbotron{
-    margin-top: 70px;
-    text-align:center;
-    padding: 15px;
-    color: yellow;
-    background-color:#43F3E6;
-    box-shadow: 3px 3px 3px 6px black; 
-}
-
-#education-header,#technical-header,#experience-header {
-    background-color: #43F3E6;
-    color: black;
-    padding: 15px;
-     text-align: center;    
-    
-}
-#main {
-    background: #30837D;
-}
-
-#background, #gallery {
-    background-color: #43F3E6;
-     padding: 25px;
-     text-align: center;
-    margin-bottom: 35px;
-    box-shadow: 3px 3px 3px 6px;
-    color: black;
-    
-    
-}
-
-.galleryheaders {
-    text-align: center;
-    font-weight: bold;
-}
-
-
 
 footer {
    position: fixed;
    bottom: 0;
    height: 50px;
    width: 100%;
-   background-color:aqua;
-   color: black;
+   width: 100%;
    text-align: left;
    padding: 10px;
-    
 }
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    text-indent: 2em;
+    color: black;
+}
+
+.jumbotron{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    text-align:center;
+    padding: 5px;
+    color: black;
+    background-color:#43F3E6;
+    box-shadow: 1px 1px 2px 2px #000000; 
+}
+
+.jobsthumbnail
+{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+.navbar{
+    background-color: aqua;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #000000;
+}
+
+.navbar-inverse .navbar-nav li a
+{
+    color: #000000;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover 
+{
+    color: yellow;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
+{
+    color: yellow;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+    color: yellow;
+    background-color: forestgreen;
+}
+
+footer {
+    background-color: aqua;
+    color: black;  
+}
+
+.panel-heading {
+    text-align: center;
+}
+
+.panel-heading, .panel-body, .thumbnail {
+    box-shadow: 1px 1px 2px 1px #000000;
+}
+
+.panel-title
+{
+    background-color: #43F3E6;
+    color: black;
+    padding: 10px;
+    text-align: center; 
+    box-shadow: 1px 1px 1px 2px #000000;
+}
+
+.page-header{
+    border-bottom: 1px solid #43F3E6;
+}
+
+#main {
+    background: #848C8F;
+}
+
+#background{
+    background-color: #43F3E6;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px 2px;
+    color: black; 
+}
+
+#csharp, #webdevproj
+{
+    background-color: #43F3E6;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px 2px #000000;
+    color: black;
+}
+
+/*ID Assigned to align the HTC image under education*/
+#htc
+{
+    width: 300px;
+    height: 40px;
+}
+/*#webdevproj
+{
+    background-color: #43F3E6;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 2px 2px;
+    color: black;
+}*/
+
+
+
+
+
+
+
 
 

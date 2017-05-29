@@ -6,18 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Brian Andreasen</title>
-
+    <title>Introducing Brian Andreasen</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
     <!-- Linking of Style sheet for CSS-->
     <link rel="stylesheet" href="styles.css">
-
     <!--font awesome icon embed-->
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <script src="https://use.fontawesome.com/6fc9b7ba46.js"></script>
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,13 +21,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
-
-
 <!-- Beginning of Navigation-->
 
 <body data-spy="scroll" data-target=".navbar">
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -41,12 +33,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brian Andreasen </a>
+                <a class="navbar-brand" href="#"><img src="" alt="Brian Andreasen"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavButton">
                 <ul class="nav navbar-nav">
                     <li><a href="#background">Background</a></li>
-                    <li><a href="#gallery">Projects Gallery</a></li>
+                    <li><a href="#webdevproj">Web Dev Projects</a></li>
+                    <li><a href="#csharp">C# Projects</a></li>
+                    <li><a href="https://brianandreasenblog.wordpress.com/">Blog</a></li>
                     <li><a href="https://www.linkedin.com/in/brian-andreasen-6b503479?trk=hp-identity-name"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                     <li><a href="https://github.com/brianandreasen1983/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                 </ul>
@@ -55,236 +49,251 @@
     </nav>
     <!--End of Navigation-->
 
-
-
     <!--MAIN CONTENT-->
-
     <main>
-
         <div class="container" id="main">
             <!-- Main content container-->
             <div class="jumbotron">
-
                 <h1>Brian Andreasen<br></h1>
                 <h2>Software Developer</h2>
-
-                <p id="jumbotext">My mission is to solve problems by creating solutions through collaboration that is in the best interest of the customer and their users.</p>
+                <p id="jumbotext">In Brian's current positon as a IT Consultant he harnesses technology to bring business value to the enterprise and it's user's to assist in solving problems. He has held positionins as a help desk analyst, Apple genius, mentor and leader, and Consultant.</p>
             </div>
-            <!--This ends the jumbotron-->
-
-            <!--This starts the first row-->
             <section>
-
                 <div class="page-header" id="background">
-                    <h2>Background</h2>
+                    <h3>Background</h3>
                 </div>
-
-                <!--This is the first column of the first row-->
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
-                        <div class="panel panel-default" id="education">
-
-                            <!--Start of the panel heading-->
-
-                            <div class="panel-heading" id="education-header">
-                                <h3 class="panel-title">Education</h3>
-                            </div>
-
-                            <!--End of the panel heading-->
-
-                            <!--Start of the panel content-->
-
+                        <div class="panel panel-default">
+                            <h3 class="panel-title">Education</h3>
                             <div class="panel-body">
-                                <h4>Schools Attended</h4>
-
-                                <ul>
-                                    <li>Hennepin Technical College</li>
-                                    <li>Minnesota School of Business</li>
-                                </ul>
-
+                                <div class="eduthumbnail">
+                                    <figure class="educationthumbnail">
+                                        <a href="http://www.hennepintech.edu"><img id="htc" src="media/HTC.png" alt="Hennepin Technical College"></a>
+                                        <figcaption>A.A.S. .NET Programmer</figcaption>
+                                        <p>Est. Graduation Date Fall 2017</p>
+                                    </figure>
+                                </div>
                                 <h4>Coursework</h4>
+                                <p>All coursework for the program can be viewed at Hennepin Tech's <a href="https://www.hennepintech.edu/program/awards/411">.NET Programmer</a> A.A.S program</p>
 
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Bootstrap</li>
-                                    <li>Javascript</li>
-                                </ul>
+
+                                <!--<div class="thumbnail">
+                                    <figure class="educationthumbnail">
+                                        <a href="http://www.stcloudstate.edu/"><img src="media/png/U_Pri_C_WhtLtBG.png" alt="St. Cloud State University"></a>
+                                        <br/>
+                                        <figcaption>Starting <a href="http://www.stcloudstate.edu/programs/software-engineering/default.aspx">B.S. Software Engineering</a> Spring 2018</figcaption>
+                                    </figure>
+                                </div>-->
                             </div>
-
-                            <!--End of panel content-->
-
                         </div>
-                        <!-- This ends the panel-->
                     </div>
-                    <!--This ends the column-->
-
-
-                    <!-- This starts the 2nd column in the first row-->
-
-
-
                     <div class="col-xs-12 col-sm-4">
                         <div class="panel panel-default">
-
-                            <!--Start panel heading-->
-
-                            <div class="panel-heading" id="technical-header">
-                                <h3 class="panel-title" id="technical">Technical Skills</h3>
-                            </div>
-
-                            <!--End panel heading-->
-
-                            <!--Start of the Languages panel content-->
-
+                            <h3 class="panel-title">Technical Skills</h3>
                             <div class="panel-body">
                                 <h4>Languages</h4>
                                 <ul>
-                                    <li>VBA</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Bootstrap</li>
+                                    <li>HTML 5</li>
+                                    <li>CSS 3</li>
+                                    <li>JavaScript</li>
                                     <li>SQL</li>
+                                    <li>T-SQL</li>
+                                    <li>Csharp(C#)</li>
+                                    <li>VB.NET</li>
                                 </ul>
-                                <h4>Current Certifications</h4>
+                                <h4>JavaScript Libraries</h4>
                                 <ul>
-                                    <li>CompTIA A+</li>
-                                    <li>ACMT</li>
-                                    <li>HDI SDA</li>
-                                    <li>IBM Guardium</li>
-                                    <li>ITIL v3 Foundations 2011</li>
+                                    <li>Knockout JS</li>
+                                    <li>Angular 2</li>
+                                    <li>React JS</li>
+                                    <li>JQuery</li>
                                 </ul>
-
+                                <h4>Frameworks</h4>
+                                <ul>
+                                    <li>Winforms</li>
+                                    <li>Windows Presentation Foundation(WPF)</li>
+                                    <li>ASP.NET Webforms</li>
+                                    <li>Xamarin Forms</li>
+                                </ul>
+                                <h4>Databases</h4>
+                                <ul>
+                                    <li>Microsoft SQL Server</li>
+                                    <li>Oracle 11g</li>
+                                </ul>
                                 <h4>Operating Systems and Software</h4>
                                 <ul>
                                     <li>Mac OS X 10.6 and above</li>
                                     <li>Windows XP and above</li>
                                     <li>Red Hat Enterprise Linux 5 and 6</li>
-                                    <li>Office Suite 2007 and above</li>
-                                    <li>Visual Studio</li>
-                                    <li>Android Studio</li>
-                                    <li>Xcode</li>
+                                    <li>Microsoft Office 2007 and above</li>
+                                    <li>Visual Studio 2013 and above</li>
+                                </ul>
+                                <h4>Certifications</h4>
+                                <ul>
+                                    <li>CompTIA A+</li>
+                                    <li>HDI Service Desk Analyst</li>
+                                    <li>IBM Guardium</li>
+                                    <li>ITIL v3 Foundations 2011</li>
                                 </ul>
                             </div>
-
-                            <!--End of the panel content-->
-
                         </div>
-                        <!--Ends the panel-->
-
                     </div>
-                    <!--End of the first column-->
-
-                    <!--Start of the 3rd column in the 1st row-->
                     <div class="col-xs-12 col-sm-4">
                         <div class="panel panel-default">
-
-                            <!-- Start Panel Heading-->
-
-                            <div class="panel-heading" id="experience-header">
-                                <h3 class="panel-title" id="experience">Experience</h3>
-                            </div>
-
-                            <!--End Panel Heading -->
-
-                            <!--Start panel body-->
-
+                            <h3 class="panel-title">Experience</h3>
                             <div class="panel-body">
-                                <ul>
-                                    <li>Company: Concord USA
-                                        <br>Role: IT Consultant
-                                        <br>Time: Feb 2016 - Present</li>
-                                    <li>Company: City of Minneapolis
-                                        <br>Role: IT Service Desk Analyst II
-                                        <br>Time: Apr. 2015 - Feb.2016</li>
-                                    <li>Company: Apple Inc.
-                                        <br>Role:Genius
-                                        <br>Time: Jan. 2012- Jul. 2015</li>
-                                    <li>Company: NCO Group
-                                        <br>Role: Technical Team Manager
-                                        <br>Time: Oct. 2008 - Jan. 2012</li>
-                                </ul>
+                                <div class="jobsthumbnail">
+                                    <figure class="backgroundthumbnail">
+                                        <a href="https://concordusa.com/"><img src="media/concord.jpg" alt="ConcordUSA"></a>
+                                        <figcaption>IT Consultant from Feb 2016 to Present</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="jobsthumbnail">
+                                    <figure class="backgroundthumbnail">
+                                        <a href="http://www.ci.minneapolis.mn.us/"><img src="media/cityofminneapolis.png" alt="City of Minneapolis"></a>
+                                        <figcaption>IT Service Desk Analyst II from April 2015 until February 2016</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="jobsthumbnail">
+                                    <figure class="backgroundthumbnail">
+                                        <a href="http://www.apple.com"><img src="media/AppleInc.png" alt="Apple"></a>
+                                        <figcaption>Genius from January 2012 until July 2015</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="jobsthumbnail">
+                                    <figure class="backgroundthumbnail">
+                                        <a href="http://ncogroupjobs.com/english/"><img src="media/NCOGroup.png" alt="NCO Group"></a>
+                                        <figcaption>Technical Team Manager from October 2008 until January 2012</figcaption>
+                                    </figure>
+                                </div>
                             </div>
-
-                            <!--End Panel Body-->
-
                         </div>
-
                     </div>
-                    <!-- This ends the 3rd column in the 1st row-->
                 </div>
-                <!-- End of the first row-->
-
             </section>
-            <!--Start of the 2nd row-->
-
             <section>
-
-                <div class="page-header" id="gallery">
-                    <h2>Projects Gallery</h2>
+                <div class="page-header" id="webdevproj">
+                    <h3>Web Development Projects</h3>
                 </div>
-
-
-                <!--Start of the first column in the 2nd row-->
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
+                        <h3 class="panel-title">Ms.B's Vegetables</h3>
                         <div class="thumbnail">
-    <a href="http://brianandreasen1983.github.io/veggies-bootstrap/"><img src="media/Ms.%20B.png" alt="Ms. B's Vegetables"></a>
-                            <div class="caption">
-                                <h3 class="galleryheaders">Ms. B's Vegetables</h3>
-                                <p>Ms. B's Vegetables is a fictional business that we used to create a website using the bootstrap 3 framework.</p>
-                            </div>
+                            <a href="http://brianandreasen1983.github.io/veggies-bootstrap/"><img src="media/Ms.%20B.png" alt="Ms. B's Vegetables"></a>
+                            <p class="caption">Ms. B's Vegetables is a fictional business that we used to create a website using the bootstrap 3 framework.</p>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-4">
+                        <h3 class="panel-title">Pacific Trails Resort</h3>
                         <div class="thumbnail">
                             <a href="http://brianandreasen1983.github.io/ptCaseStudy/"><img src="media/pacifictrails.png" alt="Pacific Trails Resort"></a>
                             <div class="caption">
-                                <h3 class="galleryheaders">Pacific Trails Resort</h3>
                                 <p>Pacific Trails Resort is a semester long assignment where we were graded as if we were partnering with a company to create a website for them.</p>
                                 <p>The expectation of this assignment was to design and follow the guidance of our customer.</p>
                                 <p>Grammar, punctuation and proper use of HTML and CSS were highly critized to provide the best learning experience and emulate a real world environment.</p>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-xs-12 col-sm-4">
+                        <h3 class="panel-title">Reflex Fan Page</h3>
                         <div class="thumbnail">
                             <a href="http://brianandreasen1983.github.io/fan-page/"><img src="media/fanpage.png" alt="fan site"></a>
                             <div class="caption">
-                                <h3 class="galleryheaders">Fan Page</h3>
-                                <p>On my spare time I like to play video games. One of my favorites right now is an Arena FPS game called "Reflex".</p>
-                                <p>This is a tribute to a game that has yet to be released and finalized and is still in its testing phases the website is also still under construction as I will be re-writing the site using bootstrap.</p>
+                                <p>On my spare time I like to play video games. One of my favorites right now is an Arena FPS game called Reflex Arena.</p>
+                                <p>At the time this was built the game was in its early access stages on Steam the game has since been released into production.</p>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <!--This ends the container for the main content-->
-
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <h3 class="panel-title">My Favorite Things JS</h3>
+                        <div class="thumbnail">
+                            <a href="https://github.com/brianandreasen1983/json-fav-things"><img src="media/JSmyFavoriteThings.PNG" alt="My Fav Things"></a>
+                            <div class="caption">
+                                <p>Small one week project focusing on interacting with JSON and JavaScript describing our favorite things. Some additional work could be done in this project for alignment and further presentation purposes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-header" id="csharp">
+                    <h3>C# Projects</h3>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <h3 class="panel-title">Xamarin Forms Simple Calculator App</h3>
+                        <div class="thumbnail">
+                            <a href="https://github.com/brianandreasen1983/MVVM_Calculator"><img src="" alt="Calculator App"></a>
+                            <div class="caption">
+                                <p>Small project building a simple calculator app for dynamic data handling such as addition, subtraction, division and multiplication.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <h3 class="panel-title">Xamarin Forms Visual Schedule App</h3>
+                        <div class="thumbnail">
+                            <a href="https://github.com/brianandreasen1983/VisualScheduleApp"><img src="media/visual%20schedule%20app%20first%20screen.PNG" alt="VisualScheduleApp"></a>
+                            <div class="caption">
+                                <p>6 week project in Xamarin Forms deploying the solution successfully to Windows Phone and Google Android OS with data persistence using SQLite built into the application.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <h3 class="panel-title">Xamarin Forms Family App</h3>
+                        <div class="thumbnail">
+                            <a href="https://github.com/brianandreasen1983/FamilyAppXAML/tree/Dev"><img src="" alt="Family App Xamarin"></a>
+                            <div class="caption">
+                                <p>Small application that gives information about us and our families.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <h3 class="panel-title">C# Pizza Ordering Application</h3>
+                        <div class="thumbnail">
+                            <a href="https://github.com/brianandreasen1983/Pizza-Project"><img src="media/Fantastico%20Pizza.PNG" alt="CSharp Pizza Project"></a>
+                            <div class="caption">
+                                <p>16 week semester long project designed to teach the student the core principles of object oriented programming in CSharp(C#) and data persistence to store and retreive data inside of a database for usage inside of an application.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <h3 class="panel-title">C# Payroll System</h3>
+                        <div class="thumbnail">
+                            <a href="https://github.com/brianandreasen1983/Winforms-Payroll-System"><img src="" alt="Simple Payroll System"></a>
+                            <div class="caption">
+                                <p> 4 week project designed to teach the student the core concepts of database programming and data access programming.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <h3 class="panel-title">C# Console Application</h3>
+                        <div class="thumbnail">
+                            <a href="https://github.com/brianandreasen1983/Pizza-Project"><img src="" alt="Csharp Console Application"></a>
+                            <div class="caption">
+                                <p>4 week project designed to teach the student about processing data from a flat file and inserting valid records into the database giving the user the total amount of records processed and the total amount of records inserted into the database.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
-
         </div>
-        <!--End MAIN CONTENT-->
-
-        <!--Start footer-->
-
         <footer>
-            Copyright &copy; 2016 <a href="mailto:brian.andreasen1983@gmail.com">Brian Andreasen</a>
-            <br> Copyright &copy; Color palette Paletton
+            Copyright &copy; 2017 <a href="mailto:brian.andreasen1983@gmail.com">Brian Andreasen</a>
+            <br> Copyright &copy; 2017 <a href="http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF">Paletton</a>
+            <br> Copright &copy; 2017 <a href="https://www.hennepintech.edu/">Hennepin Technical College</a>
+            <br> Copyright &copy;2017 <a href="http://www.metrostate.edu/">Metropolitan State University</a>
         </footer>
-
-        <!--End Footer-->
-
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!--JQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        
-         <!-- Bootstrap JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <!--JS File for behavior-->
+        <script src="js/script.js"></script>
     </main>
 </body>
 
