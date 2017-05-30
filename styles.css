@@ -27,6 +27,10 @@ footer {
    padding: 10px;
 }
 
+.caption
+{
+    background-color: lightyellow;
+}
 h3{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -51,7 +55,7 @@ p {
 {
     text-align: center;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .navbar{
@@ -79,8 +83,8 @@ p {
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
 {
-    color: yellow;
-    background-color: forestgreen;
+    color: purple;
+    background-color: lightgreen;
 }
 
 footer {
@@ -98,21 +102,26 @@ footer {
 
 .panel-heading, .panel-body,  {
     box-shadow: 1px 1px 2px 1px #000000;
+    padding-top: 0px;
 }
 
 .thumbnail{
-       box-shadow: 1px 1px 2px 1px #000000;
-       margin-top: 2px;
+    box-shadow: 1px 1px 2px 1px #000000;
     border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .panel-title
 {
-    background-color: #43F3E6;
+    background-color: lightgreen;
     color: black;
     padding: 5px;
     text-align: center; 
     box-shadow: 1px 1px 1px 2px #000000;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .page-header{
@@ -123,18 +132,19 @@ footer {
     background: #848C8F;
 }
 
-#background{
+/*#background{
     background-color: lightblue;
-    padding: 5px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     box-shadow: 1px 1px 2px 2px;
     color: black; 
-    /*border-radius: 30px;*/
-}
+    border-radius: 10px;
+}*/
 
-#csharp, #webdevproj
+#csharp, #webdevproj, #background
 {
     background-color: lightblue;
     padding: 5px;
@@ -143,6 +153,7 @@ footer {
     margin-bottom: 20px;
     box-shadow: 1px 1px 2px 2px #000000;
     color: black;
+    border-radius: 10px;
 }
 
 /*ID Assigned to align the HTC image under education*/
