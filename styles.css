@@ -88,21 +88,32 @@ footer {
     color: black;  
 }
 
+.panel
+{
+    border-radius: 30px;
+}
 .panel-heading {
     text-align: center;
 }
 
-.panel-heading, .panel-body, .thumbnail {
+.panel-heading, .panel-body,  {
     box-shadow: 1px 1px 2px 1px #000000;
 }
 
+.thumbnail{
+       box-shadow: 1px 1px 2px 1px #000000;
+       margin-top: 2px;
+    border-radius: 10px;
+}
 .panel-title
 {
+    border-radius: 10px;
     background-color: #43F3E6;
     color: black;
     padding: 10px;
     text-align: center; 
     box-shadow: 1px 1px 1px 2px #000000;
+    margin-bottom: 4px;
 }
 
 .page-header{
@@ -121,6 +132,7 @@ footer {
     margin-bottom: 20px;
     box-shadow: 1px 1px 2px 2px;
     color: black; 
+    border-radius: 30px;
 }
 
 #csharp, #webdevproj
