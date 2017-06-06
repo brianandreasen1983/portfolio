@@ -41,6 +41,9 @@ p {
     color: black;
 }
 
+h4,li{
+    text-align: left;
+}
 .jumbotron{
     margin-top: 70px;
     margin-bottom: 10px;
@@ -154,6 +157,11 @@ footer {
     box-shadow: 1px 1px 2px 2px #000000;
     color: black;
     border-radius: 10px;
+}
+
+#background
+{
+    
 }
 
 /*ID Assigned to align the HTC image under education*/
