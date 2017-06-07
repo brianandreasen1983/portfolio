@@ -33,6 +33,7 @@ footer {
 h3 {
     margin-top: 5px;
     margin-bottom: 5px;
+    border-radius: 10px;
 }
 
 p {
@@ -44,6 +45,15 @@ li {
     text-align: left;
     list-style-type: disc;
     list-style-position: inside;
+}
+
+h4{
+    border-radius: 10px;
+}
+
+footer {
+    background-image: linear-gradient(lightblue, white, lightblue);
+    color: black;
 }
 
 .jumbotron {
@@ -77,25 +87,17 @@ li {
 }
 
 .navbar-inverse .navbar-brand:focus,
-.navbar-inverse .navbar-brand:hover {
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav li a:focus,
+.navbar-inverse .navbar-nav li a:hover{
     color: blue;
 }
 
-.navbar-inverse .navbar-nav>li>a:focus,
-.navbar-inverse .navbar-nav>li>a:hover {
-    color: blue;
-}
-
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.active>a:focus,
-.navbar-inverse .navbar-nav>.active>a:hover {
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
     color: blue;
     background-image: linear-gradient(grey, white, silver);
-}
-
-footer {
-    background-image: linear-gradient(lightblue, white, lightblue);
-    color: black;
 }
 
 .panel {
@@ -136,22 +138,9 @@ footer {
     border-bottom: 1px solid #43F3E6;
 }
 
-#main {
+#container {
     background: #848C8F;
 }
-
-
-/*#background{
-    background-color: lightblue;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    box-shadow: 1px 1px 2px 2px;
-    color: black; 
-    border-radius: 10px;
-}*/
 
 #csharp,
 #webdevproj,
@@ -165,11 +154,6 @@ footer {
     color: black;
     border-radius: 10px;
 }
-
-#background {}
-
-
-/*ID Assigned to align the HTC image under education*/
 
 #htc {
     width: 300px;
@@ -186,14 +170,3 @@ footer {
     width: 200px;
 }
 
-
-/*#webdevproj
-{
-    background-color: #43F3E6;
-    padding: 5px;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 25px;
-    box-shadow: 1px 1px 2px 2px;
-    color: black;
-}*/
