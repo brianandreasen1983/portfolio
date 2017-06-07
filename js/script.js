@@ -2,7 +2,6 @@ $(document).ready(function () {
     //alert("ready for DOMination!");
 
     $('h4').addClass("panel-title");
-    $('ul').addClass("list-group");
 
 
 

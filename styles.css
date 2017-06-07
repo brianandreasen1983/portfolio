@@ -4,12 +4,12 @@ html {
    min-height: 100%;
 }
 
-body {
+main {
     position: relative;
     font-family: verdana, arial, sans-serif;
     padding-top: 5px;
     margin-bottom: 50px;
-    background-image:url(media/tartan2.png);
+    background-image:linear-gradient(black, lightblue, black);
 }
 
 .eduthumbnail
@@ -63,7 +63,7 @@ list-style-type: disc;
 }
 
 .navbar{
-    background-color: aqua;
+    background-image:linear-gradient(lightblue, white, lightblue);
 }
 
 .navbar-inverse .navbar-brand{
@@ -92,7 +92,7 @@ list-style-type: disc;
 }
 
 footer {
-    background-color: aqua;
+    background-image:linear-gradient(lightblue, white, lightblue);
     color: black;  
 }
 
