@@ -1,7 +1,7 @@
 html {
-   /* Needed to fix footer at bottom of browser */
-   position: relative;
-   min-height: 100%;
+    /* Needed to fix footer at bottom of browser */
+    position: relative;
+    min-height: 100%;
 }
 
 main {
@@ -9,29 +9,28 @@ main {
     font-family: verdana, arial, sans-serif;
     padding-top: 5px;
     margin-bottom: 50px;
-    background-image:linear-gradient(black, lightblue, black);
+    background-image: linear-gradient(black, lightblue, black);
 }
 
-.eduthumbnail
-{
+.eduthumbnail {
     text-align: center;
 }
 
 footer {
-   position: fixed;
-   bottom: 0;
-   height: 50px;
-   width: 100%;
-   width: 100%;
-   text-align: left;
-   padding: 10px;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
 }
 
-.caption
-{
+.caption {
     background-color: lightyellow;
 }
-h3{
+
+h3 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -40,82 +39,81 @@ p {
     color: black;
 }
 
-h4,li{
- text-align:left;
-list-style-type: disc;
+h4,
+li {
+    text-align: left;
+    list-style-type: disc;
     list-style-position: inside;
 }
-.jumbotron{
+
+.jumbotron {
     margin-top: 70px;
     margin-bottom: 10px;
-    text-align:center;
+    text-align: center;
     padding: 5px;
     color: black;
-     background-color: lightblue;
-    box-shadow: 1px 1px 2px 2px #000000; 
+    background-color: lightblue;
+    box-shadow: 1px 1px 2px 2px #000000;
 }
 
-.jobsthumbnail
-{
+.jobsthumbnail {
     text-align: center;
     padding: 5px;
     margin: 5px;
 }
 
-.navbar{
-    background-image:linear-gradient(lightblue, white, lightblue);
+.navbar {
+    background-image: linear-gradient(lightblue, white, lightblue);
 }
 
-.navbar-inverse .navbar-brand{
+.navbar-inverse .navbar-brand {
     color: #000000;
-        margin: 5px;
-    padding: 5px;
 }
 
-.navbar-inverse .navbar-nav li a
-{
+.navbar-inverse .navbar-nav li a {
     color: #000000;
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: black;
-    margin: 5px;
-    padding: 5px;
 }
 
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover 
-{
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover {
     color: blue;
 }
 
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
-{
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
     color: blue;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
-{
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
     color: blue;
     background-image: linear-gradient(grey, white, silver);
 }
 
 footer {
-    background-image:linear-gradient(lightblue, white, lightblue);
-    color: black;  
+    background-image: linear-gradient(lightblue, white, lightblue);
+    color: black;
 }
 
-.panel
-{
+.panel {
     border-radius: 30px;
 }
+
 .panel-heading {
     text-align: center;
 }
 
-.panel-heading, .panel-body,  {
+.panel-heading,
+.panel-body,
+{
     box-shadow: 1px 1px 2px 1px #000000;
     padding-top: 0px;
 }
 
-.thumbnail{
+.thumbnail {
     box-shadow: 1px 1px 2px 1px #000000;
     border-radius: 5px;
     padding: 10px;
@@ -123,24 +121,25 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
 }
-.panel-title
-{
+
+.panel-title {
     background-color: lightgreen;
     color: black;
     padding: 5px;
-    text-align: center; 
+    text-align: center;
     box-shadow: 1px 1px 1px 2px #000000;
     margin-bottom: 10px;
     margin-top: 5px;
 }
 
-.page-header{
+.page-header {
     border-bottom: 1px solid #43F3E6;
 }
 
 #main {
     background: #848C8F;
 }
+
 
 /*#background{
     background-color: lightblue;
@@ -154,8 +153,9 @@ footer {
     border-radius: 10px;
 }*/
 
-#csharp, #webdevproj, #background
-{
+#csharp,
+#webdevproj,
+#background {
     background-color: lightblue;
     padding: 5px;
     text-align: center;
@@ -166,28 +166,27 @@ footer {
     border-radius: 10px;
 }
 
-#background
-{
-    
-}
+#background {}
+
 
 /*ID Assigned to align the HTC image under education*/
-#htc
-{
+
+#htc {
     width: 300px;
     height: 40px;
 }
 
-#jumbotext
-{
+#jumbotext {
     font-size: 16px;
 }
 
-#profilepic{
+#profilepic {
     border-radius: 20px;
     height: 200px;
     width: 200px;
 }
+
+
 /*#webdevproj
 {
     background-color: #43F3E6;
@@ -198,12 +197,3 @@ footer {
     box-shadow: 1px 1px 2px 2px;
     color: black;
 }*/
-
-
-
-
-
-
-
-
-
