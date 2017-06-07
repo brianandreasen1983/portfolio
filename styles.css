@@ -176,6 +176,12 @@ footer {
 {
     font-size: 16px;
 }
+
+#profilepic{
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
 /*#webdevproj
 {
     background-color: #43F3E6;
