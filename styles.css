@@ -37,12 +37,13 @@ h3{
 }
 
 p {
-    text-indent: 2em;
     color: black;
 }
 
 h4,li{
-    text-align: left;
+ text-align:left;
+list-style-type: disc;
+    list-style-position: inside;
 }
 .jumbotron{
     margin-top: 70px;

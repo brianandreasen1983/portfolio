@@ -18,5 +18,8 @@ $(document).ready(function () {
            $('.thumbnail').toggle();
     });*/
     
-    //$('h4').addClass('panel-title');
+    $('h4').addClass("panel-title");
+    $('ul').addClass("list-group");
+    
+    
 });
