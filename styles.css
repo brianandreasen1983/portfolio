@@ -68,27 +68,33 @@ list-style-type: disc;
 
 .navbar-inverse .navbar-brand{
     color: #000000;
+        margin: 5px;
+    padding: 5px;
 }
 
 .navbar-inverse .navbar-nav li a
 {
     color: #000000;
+    border-radius: 10px;
+    border-color: black;
+    margin: 5px;
+    padding: 5px;
 }
 
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover 
 {
-    color: yellow;
+    color: blue;
 }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
 {
-    color: yellow;
+    color: blue;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
 {
-    color: purple;
-    background-color: lightgreen;
+    color: blue;
+    background-image: linear-gradient(grey, white, silver);
 }
 
 footer {
