@@ -2,7 +2,7 @@ $(document).ready(function () {
     //alert("ready for DOMination!");
 
     $('h4').addClass("panel-title");
-
+    $('img').addClass("img-responsive");
 
 
     //Click event handlers
