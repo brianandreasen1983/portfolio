@@ -3,6 +3,9 @@ $(document).ready(function () {
 
     $('h4').addClass("panel-title");
 
+    $('#webdevproj').children().first().siblings().hide();
+    $('#csharp').children().first().siblings().hide();
+    
     //If you click on the Web Projects header it will toggle the projects to show and hide.
     var webDevProjects = $('#webdevproj').children().first().click(function () {
         $(webDevProjects).siblings().toggle();
