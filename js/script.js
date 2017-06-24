@@ -18,10 +18,11 @@ $(document).ready(function () {
     var cSharpProjects = $('#csharp').children().first().click(function(){
         $(cSharpProjects).siblings().toggle();
     });
+
     
-    var background = $('#background').children().first().click(function(){
-        $(background).siblings().toggle();
-    });
+//    var background = $('#background').children().first().click(function(){
+//        background.siblings().toggle();
+//    });
     
     //Animations
 
