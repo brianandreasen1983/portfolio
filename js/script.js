@@ -2,17 +2,31 @@ $(document).ready(function () {
     //alert("ready for DOMination!");
 
     $('h4').addClass("panel-title");
+
+    //If you click on the Web Projects header it will toggle the projects to show and hide.
+    var webDevProjects = $('#webdevproj').children().first().click(function () {
+        $(webDevProjects).siblings().toggle();
+    });
+
+    var cSharpProjects = $('#csharp').children().first().click(function(){
+        $(cSharpProjects).siblings().toggle();
+    });
     
-    function showProfilePicture(profilePicture) {
+    var background = $('#background').children().first().click(function(){
+        $(background).siblings().toggle();
+    });
+    //var background = $('#background').children().next().toggle();
+
+    function animateProfilePicture(profilePicture) {
         var profilePicture = $('#profilepic');
         profilePicture.hide();
         profilePicture.fadeIn(2000);
     };
 
-    function slideDownJumbotron(jumbotron) {
+    function animateJumbotron(jumbotron) {
         var jumbotron = $('.jumbotron');
         jumbotron.hide();
-        jumbotron.animate().slideDown(2500);
+        jumbotron.animate().slideDown(1000);
     };
 
     function animateBackground(background) {
@@ -21,22 +35,40 @@ $(document).ready(function () {
         background.animate().slideDown(2000);
     };
 
-    function showWebProjects(webProjects) {
+    function animateWebProjects(webProjects) {
         var webProjects = $('#webdevproj');
         webProjects.hide();
-        webProjects.slideDown(2000);
+        webProjects.slideDown(1500);
     };
 
-    function showCsharpProjects(CsharpProjects) {
+    function animateCsharpProjects(CsharpProjects) {
         var CsharpProjects = $('#csharp');
         CsharpProjects.hide();
-        CsharpProjects.slideDown(2000);
+        CsharpProjects.slideDown(1500);
     };
 
-    slideDownJumbotron();
-    animateBackground();
-    showProfilePicture();
-    showWebProjects();
-    showCsharpProjects();
+    //    function animateNavigationBar(navBar) {
+    //        var navBar = $('nav');
+    //        navBar.animate({
+    //            top: "+30",
+    //        }, 1000, function () {
+    //
+    //        });
+    //    };
+    //    
+    //    function realignNavBar(navBar){
+    //      var navBar = $('nav');
+    //                navBar.animate({
+    //            top: "0",
+    //        }, 1000, function () {
+    //
+    //        });
+    //    }
 
+    //    animateNavigationBar();
+    animateJumbotron();
+    animateBackground();
+    animateProfilePicture();
+    animateWebProjects();
+    animateCsharpProjects();
 });
